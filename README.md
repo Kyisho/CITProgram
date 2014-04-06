@@ -1,4 +1,4 @@
 CITProgram
 ==========
 
-Relevant information for the CPTC CIT Program
+Website dedicated to the Computer Information Technology program at Clover Park Technical College.
