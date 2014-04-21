@@ -1,4 +1,4 @@
-USE [Master]
+USE [master]
 GO
 
 IF DB_ID ('CITProgram') IS NOT NULL
