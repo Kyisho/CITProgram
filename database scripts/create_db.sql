@@ -48,7 +48,9 @@ CREATE TABLE [Schedule] --Schedules for: Classes, Lab time, and best hours to re
 [InstructorID] smallint REFERENCES [Instructor] (InstructorID),
 [CourseID] smallint REFERENCES [Course] (CourseID), --I'm starting to think we need a class table.
 [ClassSchedule] datetime NOT NULL,--Not sure how we would set up each schedule column
-[ContactSchedule] datetime NOT NULL
+[LabHours] datetime NOT NULL, --Able to know when lab is open is important
+[OfficeHours] datetime NOT NULL --We should show when teacher is available
+
 );
 
 CREATE TABLE [Project] --Not sure what we'll need in this one.
